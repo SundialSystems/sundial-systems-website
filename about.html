@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Sundial Systems</title>
+  <meta name="description" content="Sundial Systems is founded by local business owners in Redding, California. We built systems for our own auto spa — now we build them for yours.">
+  <meta property="og:title" content="About Sundial Systems — Redding, CA">
+  <meta property="og:image" content="images/bridge.jpg">
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap">
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<nav id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-main"><span class="logo-sundial">Sundial</span><span class="logo-dot"></span><span class="logo-systems">Systems</span></div>
+        <span class="nav-logo-tagline">We Build the System. You Run the Business.</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="nav-dropdown">
+          <a href="#">Services <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
+          <div class="dropdown-menu">
+            <a href="services-systems.html">Business Systems &amp; Automation<span>Missed call recovery, follow-up, inbox</span></a>
+            <a href="services-websites.html">Website Design &amp; SEO<span>Fast, converting, locally ranked</span></a>
+            <a href="services-google.html">Google Management<span>GMB posts, reviews, local visibility</span></a>
+          </div>
+        </li>
+        <li><a href="work.html">Our Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-gold nav-cta">Get Started</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="nav-overlay" id="navOverlay">
+  <button class="overlay-close" id="overlayClose">&times;</button>
+  <a href="index.html">Home</a>
+  <a href="services-systems.html">Business Systems</a>
+  <a href="services-websites.html">Website &amp; SEO</a>
+  <a href="services-google.html">Google Management</a>
+  <a href="work.html">Our Work</a>
+  <a href="about.html">About</a>
+  <a href="contact.html" class="overlay-cta">Get Started</a>
+  <span class="overlay-phone">(530) 782-3789</span>
+</div>
+
+<!-- HERO: Split layout with pull quote -->
+<section style="padding-top:72px">
+  <div class="about-hero-grid">
+    <div class="about-hero-left" data-reveal="slide-right" style="position:relative;overflow:hidden;padding:0">
+      <img src="images/zayden-partner.jpg" alt="Zayden Warren and partner" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top">
+      <div style="position:absolute;inset:0;background:linear-gradient(to right,rgba(15,30,48,0.78) 0%,rgba(15,30,48,0.45) 100%)"></div>
+      <div style="position:relative;z-index:1;padding:80px 60px;display:flex;align-items:flex-end;height:100%">
+        <blockquote class="pull-quote">"We're not a faceless agency. We're your neighbors."</blockquote>
+      </div>
+    </div>
+    <div class="about-hero-right" data-reveal="slide-left">
+      <p class="eyebrow">About Us</p>
+      <h2 style="color:var(--white);font-size:clamp(1.6rem,3vw,2.4rem);margin-bottom:20px">Founded in Redding, California.</h2>
+      <p>Sundial Systems is a boutique digital growth agency built by local business owners — for local business owners. We're based in Redding, we work across the North State, and we understand this market from the inside.</p>
+      <p style="margin-top:12px">We don't do this from a co-working space in San Francisco. We're here.</p>
+      <div style="margin-top:28px;display:flex;gap:32px">
+        <div>
+          <div style="font-family:var(--font-display);font-size:2rem;font-weight:700;color:var(--gold)">4+</div>
+          <div style="font-size:0.78rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--gray)">Businesses Built</div>
+        </div>
+        <div>
+          <div style="font-family:var(--font-display);font-size:2rem;font-weight:700;color:var(--gold)">NorCal</div>
+          <div style="font-size:0.78rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--gray)">Local &amp; Based Here</div>
+        </div>
+        <div>
+          <div style="font-family:var(--font-display);font-size:2rem;font-weight:700;color:var(--gold)">100%</div>
+          <div style="font-size:0.78rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--gray)">Done For You</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STORY SECTION -->
+<section class="section bg-white">
+  <div class="container">
+    <div class="grid-2">
+      <div data-reveal="slide-right">
+        <p class="eyebrow">Our Story</p>
+        <h2>We built this because we lived the problem.</h2>
+      </div>
+      <div data-reveal="slide-left">
+        <p>Sundial Systems was built because we know what it's like to run a local business in Northern California.</p>
+        <p style="margin-top:16px">We built Vivid Detailz Auto Spa from the ground up in Redding. We know the missed calls. The slow seasons. The customers who come once and never hear from you again. The Google Business page you set up years ago and haven't touched since.</p>
+        <p style="margin-top:16px">We built systems to fix all of that for ourselves — then started building them for other business owners who were dealing with the same things.</p>
+        <p style="margin-top:16px">We work with contractors, chiropractors, auto shops, restaurants, and service businesses across Shasta County and the North State because we live here too. This isn't a remote agency pitching you on a Zoom. This is a conversation between neighbors.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM SECTION -->
+<section class="section bg-cream">
+  <div class="container">
+    <div class="section-header centered" data-reveal>
+      <p class="eyebrow">The Team</p>
+      <h2>The people behind the systems.</h2>
+      <p>Two founders. One focus: building systems that make local businesses run better.</p>
+    </div>
+    <div class="team-grid mt-56" data-stagger>
+
+      <!-- Zayden Warren -->
+      <div class="team-card">
+        <div class="team-photo">
+          <img src="images/zayden.jpg" alt="Zayden Warren — Founder of Sundial Systems" loading="lazy"
+               onerror="this.style.display='none'">
+          <div class="team-photo-placeholder" id="zaydenPlaceholder">
+            <span class="team-initials">ZW</span>
+          </div>
+        </div>
+        <div class="team-body">
+          <h3>Zayden Warren</h3>
+          <span class="team-role">Founder</span>
+          <p>Shasta County native. His dad started Vivid Detailz 11 years ago — Zayden joined 6 years ago and grew it into Redding's No. 1 detailing shop. He built every automation, website, and system the business runs on, then started building them for other local business owners.</p>
+          <p class="team-also">Also runs: Vivid Detailz Auto Spa — Redding's No. 1 ceramic coating &amp; detailing shop</p>
+        </div>
+      </div>
+
+      <!-- Partner -->
+      <div class="team-card">
+        <div class="team-photo">
+          <img src="images/zayden-partner.jpg" alt="Sundial Systems Co-Founder" loading="lazy"
+               onerror="this.style.display='none'">
+          <div class="team-photo-placeholder" id="partnerPlaceholder">
+            <span class="team-initials">♡</span>
+          </div>
+        </div>
+        <div class="team-body">
+          <h3>Partner</h3>
+          <span class="team-role">Co-Founder</span>
+          <p>Co-founder and the reason the operation actually runs. Handles client relationships, creative direction, and makes sure every system we deliver is dialed in before it goes live. Has been alongside Zayden at Vivid Detailz since the beginning.</p>
+          <p class="team-also">Also runs: Vivid Detailz Auto Spa — Redding's No. 1 ceramic coating &amp; detailing shop</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="margin-top:48px;background:rgba(27,46,75,0.06);border-radius:var(--radius-lg);padding:36px 40px;max-width:780px;margin-left:auto;margin-right:auto" data-reveal>
+      <p style="font-family:var(--font-accent);font-style:italic;font-size:1.3rem;color:var(--text);line-height:1.6;text-align:center">"We don't hand you a login and a tutorial. We build it, run it, and own the results alongside you."</p>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="section bg-dark">
+  <div class="container">
+    <div class="section-header centered" data-reveal>
+      <p class="eyebrow">How We Work</p>
+      <h2>Three things we won't compromise on.</h2>
+    </div>
+    <div class="values-grid mt-56" data-stagger>
+      <div class="value-card">
+        <div class="value-num">01</div>
+        <h3>Done For You — Not DIY</h3>
+        <p>We don't give you software and a tutorial. We build it, configure it, and run it for you every month. If you have to do work, we haven't done our job.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">02</div>
+        <h3>Local First — We're In Your Market</h3>
+        <p>We're not a remote agency. We're based in Redding, we understand North State customers, and we're available to meet in person. We know this market because we operate in it.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">03</div>
+        <h3>Results Over Reports</h3>
+        <p>We care about revenue and real business outcomes — not vanity metrics or impressive-looking dashboards. If the system isn't producing results, we fix it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IN-PERSON CTA -->
+<section class="section bg-navy">
+  <div class="container">
+    <div style="max-width:680px;margin:0 auto;text-align:center" data-reveal>
+      <p class="eyebrow" style="justify-content:center">Redding, CA</p>
+      <h2 style="color:var(--white);margin-bottom:20px">We're locals. Let's meet in person.</h2>
+      <p>If you'd rather meet face to face over coffee than do a Zoom call — we're in. We're available for in-person consultations in Redding and throughout Shasta County.</p>
+      <p style="margin-top:12px;font-size:0.875rem;color:rgba(255,255,255,0.45)">No pressure. Just a real conversation about your business and what's possible.</p>
+      <div class="btn-group mt-32" style="justify-content:center">
+        <a href="contact.html" class="btn btn-gold">Request an In-Person Meeting</a>
+        <a href="tel:5307823789" class="btn btn-outline">(530) 782-3789</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <div class="footer-logo"><span class="logo-sundial">Sundial</span><span class="logo-dot"></span><span class="logo-systems">Systems</span></div>
+        <p class="footer-tagline">We Build the System. You Run the Business.</p>
+        <p class="footer-location">Redding, California — Serving the North State</p>
+      </div>
+      <div class="footer-links">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services-systems.html">Business Systems</a></li>
+          <li><a href="services-websites.html">Website &amp; SEO</a></li>
+          <li><a href="services-google.html">Google Management</a></li>
+          <li><a href="work.html">Our Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <a href="tel:5307823789" class="footer-phone">(530) 782-3789</a>
+        <a href="mailto:hello@sundialsystems.net" class="footer-email">hello@sundialsystems.net</a>
+        <p class="footer-inperson">Available for in-person consultations — Redding, CA</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Sundial Systems. All rights reserved.</span>
+      <span>Built by <a href="index.html">Sundial Systems</a></span>
+    </div>
+  </div>
+</footer>
+
+<button class="popup-trigger" id="popupTrigger" aria-label="Meet Zayden — Founder">
+  <div class="popup-trigger-avatar">
+    <img src="images/zayden.jpg" alt="Zayden Warren" onerror="this.style.display='none'">
+  </div>
+  <span class="popup-trigger-label">Meet the founder</span>
+</button>
+<div class="popup-backdrop" id="popupBackdrop"></div>
+<div class="popup-modal" id="popupModal" role="dialog" aria-modal="true">
+  <button class="popup-close" id="popupClose" aria-label="Close">&times;</button>
+  <div class="popup-modal-photo">
+    <img src="images/zayden-partner.jpg" alt="Zayden and partner" loading="lazy" onerror="this.parentElement.style.background='var(--navy)'">
+  </div>
+  <div class="popup-modal-body">
+    <h2 class="popup-headline">Born Here. <em>Built Here.</em></h2>
+    <p class="popup-name">Zayden Warren — Founder, Sundial Systems</p>
+    <p class="popup-bio">Shasta County native. My dad started Vivid Detailz 11 years ago — I joined 6 years ago and grew it into Redding's No. 1 detailing shop. Now I build the same systems that run our business for other local business owners who are ready to stop doing everything themselves.</p>
+    <blockquote class="popup-pull-quote">"I built the system that runs my business. Now I build it for yours."</blockquote>
+    <div class="popup-stats-row">
+      <div class="popup-stat"><strong>11 yrs</strong><span>In Business</span></div>
+      <div class="popup-stat"><strong>No. 1</strong><span>Redding Detailing</span></div>
+      <div class="popup-stat"><strong>100%</strong><span>Done For You</span></div>
+    </div>
+    <a href="tel:5307823789" class="btn btn-gold popup-cta">Call or Text — (530) 782-3789</a>
+    <a href="contact.html" class="popup-secondary">Request an in-person consultation →</a>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+<script>
+  // Hide placeholder divs when real photos load
+  ['zayden', 'partner'].forEach(id => {
+    const img = document.querySelector(`[src="images/${id}.jpg"]`);
+    const placeholder = document.getElementById(`${id}Placeholder`);
+    if (img && placeholder) {
+      img.addEventListener('load', () => { placeholder.style.display = 'none'; });
+    }
+  });
+</script>
+</body>
+</html>
